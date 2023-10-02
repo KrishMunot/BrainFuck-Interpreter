@@ -44,6 +44,6 @@ def comma():
     """ performs a , """
     global ptr
     c = ord(sys.stdin.read(1))
-    if c != 26:
+    if c != -1:
         tape[ptr] = c
         
